@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="weather-app">
+        <header class="app-header">
+            <h1>Weather Dashboard</h1>
+            <p>Discover the weather in your city</p>
+        </header>
+
+        <form id="search-form">
+            <label for="city-input">Enter city name</label>
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="city-input"
+                    placeholder="e.g. Hyderabad"
+                    required
+                >
+                <button type="submit">Search</button>
+            </div>
+        </form>
+
+        <p id="status" role="status" aria-live="polite">
+            Search for a city to see its weather.
+        </p>
+
+        <section id="weather-result" class="weather-result" hidden>
+            <h2 id="city-name"></h2>
+            <p id="weather-description"></p>
+
+            <div class="weather-cards">
+                <article class="weather-card">
+                    <span>🌡️ Temperature</span>
+                    <p id="temperature">--</p>
+                </article>
+
+                <article class="weather-card">
+                    <span>💧 Humidity</span>
+                    <p id="humidity">--</p>
+                </article>
+
+                <article class="weather-card">
+                    <span>💨 Wind Speed</span>
+                    <p id="wind-speed">--</p>
+                </article>
+            </div>
+
+            <p id="updated-time"></p>
+        </section>
+
+        <footer>
+            <p>Weather data provided by Open-Meteo</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
