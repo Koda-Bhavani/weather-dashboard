@@ -41,5 +41,5 @@ git clone https://github.com/Koda-Bhavani/weather-dashboard.git
 Koda BhavaniGitHub: @Koda-Bhavani
 Portfolio: koda-bhavani.github.io
 ⭐ SupportIf you like this project, give it a ⭐!
-© 2026 Koda Bhavanijavascript
+© 2026 Koda Bhavani
 Want me to add your real OpenWeatherMap API key setup steps also?
