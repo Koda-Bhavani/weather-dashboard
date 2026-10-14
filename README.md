@@ -20,6 +20,11 @@ A responsive weather dashboard that displays real-time weather information for a
 - **GitHub Pages** for hosting
 
 ### 📁 Files
+weather-dashboard/
+├── index.html   # Main HTML
+├── style.css    # Styling
+├── script.js    # API logic & JavaScript
+└── README.md
 
 ### 🚀 How It Works
 1. User enters a city name
